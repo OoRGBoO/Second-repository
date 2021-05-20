@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(122, 121, 121);
+    text-align: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:grey;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+} */
+
+.table {
+    height: 55px;
+    width: 500px;
+    padding: 200px;
+    margin: 30px;
+    border: 0.5px solid rgb(200, 200, 200);
+    background-color: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell {
+    background-color: gray;
+    color: blue;
+    font-weight:normal;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    cursor:pointer;
+    text-align: center
+}
+/* body {background-color: black; color:white} */
+td {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}

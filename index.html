@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minessweeper Offline - Play 👨‍💻 Free Offline Minessweeper</title>
+    <link rel="stylesheet" href="style/css.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+    <div class="board-container">
+        <table border="1" class="table">
+            <tbody class="board">
+
+            </tbody>
+        </table>
+    </div>
+    <button onclick="restartGame()">Restart</button>
+    <script src="javascript/util.js"></script>
+    <script src="javascript/game.js"></script>
+</body>
+
+</html>
